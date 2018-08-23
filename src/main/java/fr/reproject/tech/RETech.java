@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = RETech.MODID, name = RETech.NAME, version = RETech.VERSION, dependencies = "required-after:recore@[1.0.3,);")
+@Mod(modid = RETech.MODID, name = RETech.NAME, version = RETech.VERSION, dependencies = "required-after:recore@[1.0.3,);required-after:cjcore;")
 public class RETech {
 
     public static final String MODID = "retech";

@@ -6,6 +6,7 @@ import fr.reproject.tech.RETech;
 import net.minecraft.item.Item;
 
 public class REItems {
+
     private static int numberOfItem = 1;
 
     public static Item[] items;
